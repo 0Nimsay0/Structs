@@ -47,7 +47,9 @@ class Progam
 
         for (int i = 0; i < listadeBandas.Count; i++)
         {
-            if (listadeBandas[i].nome.Equals(nome))
+            string nomeAtual = listadeBandas[i].nome.ToUpper();
+
+            if (nomeAtual.Contains(nome.ToUpper()))
             {
                 Console.WriteLine($" ** Banda {i + 1} **");
                 Console.WriteLine($"Nome: {listadeBandas[i].nome}");
@@ -63,12 +65,15 @@ class Progam
 
     static void buscaGenero(List<TipoBanda> listadeBandas, string genero)
     {
-
+        bool encontrado = false;
 
         for (int i = 0; i < listadeBandas.Count; i++)
         {
-            if (listadeBandas[i].genero.Equals(genero))
+            string generoAtual = listadeBandas[i].genero.ToUpper();
+
+            if (generoAtual.Contains(genero.ToUpper()))
             {
+                encontrado = true;
                 Console.WriteLine($" ** Banda {i + 1} **");
                 Console.WriteLine($"Nome: {listadeBandas[i].nome}");
                 Console.WriteLine($"Genero: {listadeBandas[i].genero}");
@@ -78,7 +83,8 @@ class Progam
             }
 
         }
-
+        if(!encontrado)
+            Console.WriteLine("Genero não encontrado");
     }
 
     static void excluirBanda(List<TipoBanda> listadeBandas, string excluir)
@@ -106,25 +112,30 @@ class Progam
 
     static void alterarBanda(List<TipoBanda> listadeBandas, string nome)
     {
-
-
         for (int i = 0; i < listadeBandas.Count; i++)
         {
-            if (listadeBandas[i].nome.Equals(nome))
+            Console.WriteLine("Tem certeza que deseja alterar [S/N]?");
+            char resp = char.Parse(Console.ReadLine());
+            if (resp == 'S' || resp == 's')
+
             {
+                TipoBanda novaBanda = new TipoBanda();
+                Console.WriteLine("\n*** Alterar Dados da banda ***");
                 Console.Write("Nome: ");
-                listadeBandas[i].nome = Console.ReadLine();
+                novaBanda.nome = Console.ReadLine();
                 Console.Write("Genero: ");
-                listadeBandas[i].genero = Console.ReadLine();
+                novaBanda.genero = Console.ReadLine();
                 Console.Write("Integrantes: ");
-                listadeBandas[i].integrantes = int.Parse(Console.ReadLine());
+                novaBanda.integrantes = int.Parse(Console.ReadLine());
                 Console.Write("Ranking: ");
-                listadeBandas[i].ranking = int.Parse(Console.ReadLine());
-                Console.WriteLine("Banda Alterada");
+                novaBanda.ranking = int.Parse(Console.ReadLine());
+                listadeBandas[i] = novaBanda;
+                Console.WriteLine("Dados Alterados com sucesso!");
+                break;
             }
-
+            else
+                Console.WriteLine("Operação cancelada");
         }
-
     }
 
     static void salvarDados(List<TipoBanda> listadeBandas, string nomeArquivo)
@@ -226,3 +237,6 @@ class Progam
 
     }
 }
+
+//equals = compara nomes iguais
+//contains =  compara para ver se tem o q foi digitado

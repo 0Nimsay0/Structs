@@ -12,3 +12,4 @@ C:\Users\14470442666\source\repos\struct 29.01\struct 29.01\obj\Debug\net6.0\ref
 C:\Users\14470442666\source\repos\struct 29.01\struct 29.01\obj\Debug\net6.0\struct 29.01.pdb
 C:\Users\14470442666\source\repos\struct 29.01\struct 29.01\obj\Debug\net6.0\struct 29.01.genruntimeconfig.cache
 C:\Users\14470442666\source\repos\struct 29.01\struct 29.01\obj\Debug\net6.0\ref\struct 29.01.dll
+C:\Users\14470442666\source\repos\struct 29.01\struct 29.01\obj\Debug\net6.0\struct 29.01.sourcelink.json

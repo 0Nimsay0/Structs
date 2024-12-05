@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\14470442666\\source\\repos\\struct 29.01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74A96770-B4A2-4351-B263-50312AA6914A}|struct 29.01\\struct 29.01.csproj|c:\\users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\atv02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A96770-B4A2-4351-B263-50312AA6914A}|struct 29.01\\struct 29.01.csproj|solutionrelative:struct 29.01\\atv02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74A96770-B4A2-4351-B263-50312AA6914A}|struct 29.01\\struct 29.01.csproj|c:\\users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A96770-B4A2-4351-B263-50312AA6914A}|struct 29.01\\struct 29.01.csproj|solutionrelative:struct 29.01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "atv02.cs",
+              "DocumentMoniker": "C:\\Users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\atv02.cs",
+              "RelativeDocumentMoniker": "struct 29.01\\atv02.cs",
+              "ToolTip": "C:\\Users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\atv02.cs",
+              "RelativeToolTip": "struct 29.01\\atv02.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:45:08.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\Program.cs",
               "RelativeDocumentMoniker": "struct 29.01\\Program.cs",
               "ToolTip": "C:\\Users\\14470442666\\source\\repos\\struct 29.01\\struct 29.01\\Program.cs",
               "RelativeToolTip": "struct 29.01\\Program.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAmwOMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwJoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:53:10.828Z",
               "EditorCaption": ""
